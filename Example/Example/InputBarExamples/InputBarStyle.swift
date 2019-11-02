@@ -6,7 +6,7 @@
 //  Copyright © 2017-2019 Nathan Tannar. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import InputBarAccessoryView
 
 enum InputBarStyle: String, CaseIterable {

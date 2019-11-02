@@ -24,7 +24,7 @@
 //
 //  Created by Nathan Tannar on 10/4/17.
 //
-import Foundation
+import UIKit
 
 class Lorem {
     private static let wordList = [

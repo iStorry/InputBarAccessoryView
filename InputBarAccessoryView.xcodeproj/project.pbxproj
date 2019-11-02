@@ -1,607 +1,1106 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		381042231F85FD1300B1E61A /* SeparatorLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381042221F85FD1300B1E61A /* SeparatorLine.swift */; };
-		381042251F87F34900B1E61A /* InputStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381042241F87F34900B1E61A /* InputStackView.swift */; };
-		381042271F87FDE500B1E61A /* AttachmentManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381042261F87FDE500B1E61A /* AttachmentManagerDelegate.swift */; };
-		3821ADD920F5315400DE0D1D /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADD720F5315400DE0D1D /* KeyboardNotification.swift */; };
-		3821ADDA20F5315400DE0D1D /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADD820F5315400DE0D1D /* KeyboardManager.swift */; };
-		3821ADDC20F531A600DE0D1D /* KeyboardEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADDB20F531A600DE0D1D /* KeyboardEvent.swift */; };
-		3821ADE820F54B3700DE0D1D /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADE720F54B3700DE0D1D /* NSMutableAttributedString+Extensions.swift */; };
-		38570138218651C400589A30 /* InputBarSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38570137218651C400589A30 /* InputBarSendButton.swift */; };
-		3876DA8B1F8352F200C89326 /* AutocompleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DA8A1F8352F200C89326 /* AutocompleteCell.swift */; };
-		3876DA901F83530900C89326 /* AutocompleteManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DA8E1F83530900C89326 /* AutocompleteManagerDataSource.swift */; };
-		3876DA911F83530900C89326 /* AutocompleteManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DA8F1F83530900C89326 /* AutocompleteManagerDelegate.swift */; };
-		3876DA921F83551400C89326 /* AutocompleteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DA8D1F83530200C89326 /* AutocompleteManager.swift */; };
-		3876DAA91F84C0DB00C89326 /* AttachmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DAA81F84C0DB00C89326 /* AttachmentsView.swift */; };
-		3876DAAB1F84C22100C89326 /* AttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DAAA1F84C22100C89326 /* AttachmentCell.swift */; };
-		3876DAAD1F84C42800C89326 /* AttachmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DAAC1F84C42800C89326 /* AttachmentManager.swift */; };
-		3876DAB11F84D9DB00C89326 /* AutocompleteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DAB01F84D9DA00C89326 /* AutocompleteTableView.swift */; };
-		3877525D1F8834F0000E0AC5 /* ImageAttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877525C1F8834F0000E0AC5 /* ImageAttachmentCell.swift */; };
-		387752601F884FF3000E0AC5 /* AttachmentManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877525F1F884FF3000E0AC5 /* AttachmentManagerDataSource.swift */; };
-		388B31D921EA9928000EEE45 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B31D821EA9928000EEE45 /* String+Extensions.swift */; };
-		3891276D1F980F0300702C05 /* InputItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891276C1F980F0300702C05 /* InputItem.swift */; };
-		3892AEA4202E427F006AF939 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEA3202E427F006AF939 /* UITextView+Extensions.swift */; };
-		389C571622C8557D00D78F87 /* HorizontalEdgePadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C571522C8557D00D78F87 /* HorizontalEdgePadding.swift */; };
-		389C571822C855E900D78F87 /* InputPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C571722C855E900D78F87 /* InputPlugin.swift */; };
-		38C501242148C76900246686 /* NSNotification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C501232148C76900246686 /* NSNotification+Extensions.swift */; };
-		38C8677D1F50A6AD00811974 /* NSConstraintLayoutSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C867721F50A6AD00811974 /* NSConstraintLayoutSet.swift */; };
-		38C8677E1F50A6AD00811974 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C867731F50A6AD00811974 /* UIView+AutoLayout.swift */; };
-		38C8677F1F50A6AD00811974 /* InputBarAccessoryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C867751F50A6AD00811974 /* InputBarAccessoryViewDelegate.swift */; };
-		38C867811F50A6AD00811974 /* InputBarAccessoryView-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C867781F50A6AD00811974 /* InputBarAccessoryView-Bridging-Header.h */; };
-		38C867821F50A6AD00811974 /* InputBarAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C8677A1F50A6AD00811974 /* InputBarAccessoryView.swift */; };
-		38C867831F50A6AD00811974 /* InputBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C8677B1F50A6AD00811974 /* InputBarButtonItem.swift */; };
-		38C867841F50A6AD00811974 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C8677C1F50A6AD00811974 /* InputTextView.swift */; };
-		38ECDBBD219B46D50076E154 /* InputBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECDBBC219B46D50076E154 /* InputBarViewController.swift */; };
-		38F0C1F220C7807D00FF8DD3 /* AutocompleteSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0C1F120C7807D00FF8DD3 /* AutocompleteSession.swift */; };
-		38F0C1F420C7808F00FF8DD3 /* AutocompleteCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0C1F320C7808F00FF8DD3 /* AutocompleteCompletion.swift */; };
-		38F0C1FB20C8971500FF8DD3 /* InputBarAccessoryView+Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0C1FA20C8971500FF8DD3 /* InputBarAccessoryView+Availability.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		381042221F85FD1300B1E61A /* SeparatorLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorLine.swift; sourceTree = "<group>"; };
-		381042241F87F34900B1E61A /* InputStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStackView.swift; sourceTree = "<group>"; };
-		381042261F87FDE500B1E61A /* AttachmentManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentManagerDelegate.swift; sourceTree = "<group>"; };
-		3821ADD720F5315400DE0D1D /* KeyboardNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
-		3821ADD820F5315400DE0D1D /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
-		3821ADDB20F531A600DE0D1D /* KeyboardEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEvent.swift; sourceTree = "<group>"; };
-		3821ADE720F54B3700DE0D1D /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
-		383B83831F4787E200027965 /* InputBarAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InputBarAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38447E1D22A31BE70002649D /* RxInputBarAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxInputBarAccessoryView.swift; sourceTree = "<group>"; };
-		38570137218651C400589A30 /* InputBarSendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBarSendButton.swift; sourceTree = "<group>"; };
-		3876DA8A1F8352F200C89326 /* AutocompleteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteCell.swift; sourceTree = "<group>"; };
-		3876DA8D1F83530200C89326 /* AutocompleteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteManager.swift; sourceTree = "<group>"; };
-		3876DA8E1F83530900C89326 /* AutocompleteManagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteManagerDataSource.swift; sourceTree = "<group>"; };
-		3876DA8F1F83530900C89326 /* AutocompleteManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteManagerDelegate.swift; sourceTree = "<group>"; };
-		3876DAA81F84C0DB00C89326 /* AttachmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsView.swift; sourceTree = "<group>"; };
-		3876DAAA1F84C22100C89326 /* AttachmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentCell.swift; sourceTree = "<group>"; };
-		3876DAAC1F84C42800C89326 /* AttachmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentManager.swift; sourceTree = "<group>"; };
-		3876DAB01F84D9DA00C89326 /* AutocompleteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteTableView.swift; sourceTree = "<group>"; };
-		3877525C1F8834F0000E0AC5 /* ImageAttachmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAttachmentCell.swift; sourceTree = "<group>"; };
-		3877525F1F884FF3000E0AC5 /* AttachmentManagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentManagerDataSource.swift; sourceTree = "<group>"; };
-		388B31D821EA9928000EEE45 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		3891276C1F980F0300702C05 /* InputItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputItem.swift; sourceTree = "<group>"; };
-		3892AEA3202E427F006AF939 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
-		389C571522C8557D00D78F87 /* HorizontalEdgePadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalEdgePadding.swift; sourceTree = "<group>"; };
-		389C571722C855E900D78F87 /* InputPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputPlugin.swift; sourceTree = "<group>"; };
-		38C501232148C76900246686 /* NSNotification+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotification+Extensions.swift"; sourceTree = "<group>"; };
-		38C867721F50A6AD00811974 /* NSConstraintLayoutSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConstraintLayoutSet.swift; sourceTree = "<group>"; };
-		38C867731F50A6AD00811974 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
-		38C867751F50A6AD00811974 /* InputBarAccessoryViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBarAccessoryViewDelegate.swift; sourceTree = "<group>"; };
-		38C867771F50A6AD00811974 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38C867781F50A6AD00811974 /* InputBarAccessoryView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InputBarAccessoryView-Bridging-Header.h"; sourceTree = "<group>"; };
-		38C8677A1F50A6AD00811974 /* InputBarAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBarAccessoryView.swift; sourceTree = "<group>"; };
-		38C8677B1F50A6AD00811974 /* InputBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBarButtonItem.swift; sourceTree = "<group>"; };
-		38C8677C1F50A6AD00811974 /* InputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
-		38ECDBBC219B46D50076E154 /* InputBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBarViewController.swift; sourceTree = "<group>"; };
-		38F0C1F120C7807D00FF8DD3 /* AutocompleteSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteSession.swift; sourceTree = "<group>"; };
-		38F0C1F320C7808F00FF8DD3 /* AutocompleteCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteCompletion.swift; sourceTree = "<group>"; };
-		38F0C1FA20C8971500FF8DD3 /* InputBarAccessoryView+Availability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InputBarAccessoryView+Availability.swift"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		383B837F1F4787E200027965 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		3821ADD620F5314800DE0D1D /* KeyboardManager */ = {
-			isa = PBXGroup;
-			children = (
-				3821ADD820F5315400DE0D1D /* KeyboardManager.swift */,
-				3821ADDB20F531A600DE0D1D /* KeyboardEvent.swift */,
-				3821ADD720F5315400DE0D1D /* KeyboardNotification.swift */,
-			);
-			path = KeyboardManager;
-			sourceTree = "<group>";
-		};
-		383B83791F4787E200027965 = {
-			isa = PBXGroup;
-			children = (
-				38447E1C22A31BE70002649D /* RxInputBarAccessoryView */,
-				38C867701F50A6AD00811974 /* Sources */,
-				383B83841F4787E200027965 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		383B83841F4787E200027965 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				383B83831F4787E200027965 /* InputBarAccessoryView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		38447E1C22A31BE70002649D /* RxInputBarAccessoryView */ = {
-			isa = PBXGroup;
-			children = (
-				38447E1D22A31BE70002649D /* RxInputBarAccessoryView.swift */,
-			);
-			path = RxInputBarAccessoryView;
-			sourceTree = "<group>";
-		};
-		3876DA8C1F8352F800C89326 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				38F0C1ED20C7802300FF8DD3 /* AutocompleteManager */,
-				38F0C1EE20C7802B00FF8DD3 /* AttachmentManager */,
-			);
-			path = Plugins;
-			sourceTree = "<group>";
-		};
-		38C867701F50A6AD00811974 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				38C8677A1F50A6AD00811974 /* InputBarAccessoryView.swift */,
-				38F0C1EB20C77F9900FF8DD3 /* Controls */,
-				38C867711F50A6AD00811974 /* Extensions */,
-				3821ADD620F5314800DE0D1D /* KeyboardManager */,
-				38F0C1EC20C77FA000FF8DD3 /* Models */,
-				3876DA8C1F8352F800C89326 /* Plugins */,
-				38C867741F50A6AD00811974 /* Protocols */,
-				38C867761F50A6AD00811974 /* Supporting Files */,
-				38ECDBBB219B46B90076E154 /* ViewControllers */,
-				38C867791F50A6AD00811974 /* Views */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		38C867711F50A6AD00811974 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3821ADE720F54B3700DE0D1D /* NSMutableAttributedString+Extensions.swift */,
-				38C501232148C76900246686 /* NSNotification+Extensions.swift */,
-				3892AEA3202E427F006AF939 /* UITextView+Extensions.swift */,
-				388B31D821EA9928000EEE45 /* String+Extensions.swift */,
-				38C867731F50A6AD00811974 /* UIView+AutoLayout.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		38C867741F50A6AD00811974 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				38C867751F50A6AD00811974 /* InputBarAccessoryViewDelegate.swift */,
-				389C571722C855E900D78F87 /* InputPlugin.swift */,
-				3891276C1F980F0300702C05 /* InputItem.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		38C867761F50A6AD00811974 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				38C867771F50A6AD00811974 /* Info.plist */,
-				38F0C1FA20C8971500FF8DD3 /* InputBarAccessoryView+Availability.swift */,
-				38C867781F50A6AD00811974 /* InputBarAccessoryView-Bridging-Header.h */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		38C867791F50A6AD00811974 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				38C8677C1F50A6AD00811974 /* InputTextView.swift */,
-				381042241F87F34900B1E61A /* InputStackView.swift */,
-				381042221F85FD1300B1E61A /* SeparatorLine.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		38ECDBBB219B46B90076E154 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				38ECDBBC219B46D50076E154 /* InputBarViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		38F0C1EB20C77F9900FF8DD3 /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				38C8677B1F50A6AD00811974 /* InputBarButtonItem.swift */,
-				38570137218651C400589A30 /* InputBarSendButton.swift */,
-			);
-			path = Controls;
-			sourceTree = "<group>";
-		};
-		38F0C1EC20C77FA000FF8DD3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				38C867721F50A6AD00811974 /* NSConstraintLayoutSet.swift */,
-				389C571522C8557D00D78F87 /* HorizontalEdgePadding.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		38F0C1ED20C7802300FF8DD3 /* AutocompleteManager */ = {
-			isa = PBXGroup;
-			children = (
-				3876DA8D1F83530200C89326 /* AutocompleteManager.swift */,
-				38F0C1EF20C7804100FF8DD3 /* Views */,
-				38F0C1F520C7809E00FF8DD3 /* Models */,
-				38F0C1F620C780B000FF8DD3 /* Protocols */,
-			);
-			path = AutocompleteManager;
-			sourceTree = "<group>";
-		};
-		38F0C1EE20C7802B00FF8DD3 /* AttachmentManager */ = {
-			isa = PBXGroup;
-			children = (
-				3876DAAC1F84C42800C89326 /* AttachmentManager.swift */,
-				38F0C1F020C7804600FF8DD3 /* Views */,
-				38F0C1F720C780C600FF8DD3 /* Protocols */,
-			);
-			path = AttachmentManager;
-			sourceTree = "<group>";
-		};
-		38F0C1EF20C7804100FF8DD3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3876DAB01F84D9DA00C89326 /* AutocompleteTableView.swift */,
-				3876DA8A1F8352F200C89326 /* AutocompleteCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		38F0C1F020C7804600FF8DD3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3876DAA81F84C0DB00C89326 /* AttachmentsView.swift */,
-				3876DAAA1F84C22100C89326 /* AttachmentCell.swift */,
-				3877525C1F8834F0000E0AC5 /* ImageAttachmentCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		38F0C1F520C7809E00FF8DD3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				38F0C1F120C7807D00FF8DD3 /* AutocompleteSession.swift */,
-				38F0C1F320C7808F00FF8DD3 /* AutocompleteCompletion.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		38F0C1F620C780B000FF8DD3 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				3876DA8F1F83530900C89326 /* AutocompleteManagerDelegate.swift */,
-				3876DA8E1F83530900C89326 /* AutocompleteManagerDataSource.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		38F0C1F720C780C600FF8DD3 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				381042261F87FDE500B1E61A /* AttachmentManagerDelegate.swift */,
-				3877525F1F884FF3000E0AC5 /* AttachmentManagerDataSource.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		383B83801F4787E200027965 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38C867811F50A6AD00811974 /* InputBarAccessoryView-Bridging-Header.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		383B83821F4787E200027965 /* InputBarAccessoryView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 383B838B1F4787E200027965 /* Build configuration list for PBXNativeTarget "InputBarAccessoryView" */;
-			buildPhases = (
-				383B837E1F4787E200027965 /* Sources */,
-				383B837F1F4787E200027965 /* Frameworks */,
-				383B83801F4787E200027965 /* Headers */,
-				383B83811F4787E200027965 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = InputBarAccessoryView;
-			productName = NTInputAccessoryView;
-			productReference = 383B83831F4787E200027965 /* InputBarAccessoryView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		383B837A1F4787E200027965 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Nathan Tannar";
-				TargetAttributes = {
-					383B83821F4787E200027965 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 9EUCWD26TP;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-				};
-			};
-			buildConfigurationList = 383B837D1F4787E200027965 /* Build configuration list for PBXProject "InputBarAccessoryView" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 383B83791F4787E200027965;
-			productRefGroup = 383B83841F4787E200027965 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				383B83821F4787E200027965 /* InputBarAccessoryView */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		383B83811F4787E200027965 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		383B837E1F4787E200027965 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				387752601F884FF3000E0AC5 /* AttachmentManagerDataSource.swift in Sources */,
-				3821ADDC20F531A600DE0D1D /* KeyboardEvent.swift in Sources */,
-				3876DA921F83551400C89326 /* AutocompleteManager.swift in Sources */,
-				38ECDBBD219B46D50076E154 /* InputBarViewController.swift in Sources */,
-				38C867841F50A6AD00811974 /* InputTextView.swift in Sources */,
-				389C571822C855E900D78F87 /* InputPlugin.swift in Sources */,
-				3876DA901F83530900C89326 /* AutocompleteManagerDataSource.swift in Sources */,
-				3876DAA91F84C0DB00C89326 /* AttachmentsView.swift in Sources */,
-				38F0C1F220C7807D00FF8DD3 /* AutocompleteSession.swift in Sources */,
-				3892AEA4202E427F006AF939 /* UITextView+Extensions.swift in Sources */,
-				3891276D1F980F0300702C05 /* InputItem.swift in Sources */,
-				38C8677D1F50A6AD00811974 /* NSConstraintLayoutSet.swift in Sources */,
-				38C8677F1F50A6AD00811974 /* InputBarAccessoryViewDelegate.swift in Sources */,
-				38F0C1F420C7808F00FF8DD3 /* AutocompleteCompletion.swift in Sources */,
-				3876DA8B1F8352F200C89326 /* AutocompleteCell.swift in Sources */,
-				389C571622C8557D00D78F87 /* HorizontalEdgePadding.swift in Sources */,
-				388B31D921EA9928000EEE45 /* String+Extensions.swift in Sources */,
-				3876DAAB1F84C22100C89326 /* AttachmentCell.swift in Sources */,
-				3821ADE820F54B3700DE0D1D /* NSMutableAttributedString+Extensions.swift in Sources */,
-				38C867821F50A6AD00811974 /* InputBarAccessoryView.swift in Sources */,
-				38570138218651C400589A30 /* InputBarSendButton.swift in Sources */,
-				3876DAB11F84D9DB00C89326 /* AutocompleteTableView.swift in Sources */,
-				381042271F87FDE500B1E61A /* AttachmentManagerDelegate.swift in Sources */,
-				3876DAAD1F84C42800C89326 /* AttachmentManager.swift in Sources */,
-				38F0C1FB20C8971500FF8DD3 /* InputBarAccessoryView+Availability.swift in Sources */,
-				381042251F87F34900B1E61A /* InputStackView.swift in Sources */,
-				38C8677E1F50A6AD00811974 /* UIView+AutoLayout.swift in Sources */,
-				3877525D1F8834F0000E0AC5 /* ImageAttachmentCell.swift in Sources */,
-				381042231F85FD1300B1E61A /* SeparatorLine.swift in Sources */,
-				38C867831F50A6AD00811974 /* InputBarButtonItem.swift in Sources */,
-				3821ADD920F5315400DE0D1D /* KeyboardNotification.swift in Sources */,
-				38C501242148C76900246686 /* NSNotification+Extensions.swift in Sources */,
-				3876DA911F83530900C89326 /* AutocompleteManagerDelegate.swift in Sources */,
-				3821ADDA20F5315400DE0D1D /* KeyboardManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin XCBuildConfiguration section */
-		383B83891F4787E200027965 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		383B838A1F4787E200027965 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		383B838C1F4787E200027965 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9EUCWD26TP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.nathantannar.InputBarAccessoryView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		383B838D1F4787E200027965 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9EUCWD26TP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.nathantannar.InputBarAccessoryView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		383B837D1F4787E200027965 /* Build configuration list for PBXProject "InputBarAccessoryView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				383B83891F4787E200027965 /* Debug */,
-				383B838A1F4787E200027965 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		383B838B1F4787E200027965 /* Build configuration list for PBXNativeTarget "InputBarAccessoryView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				383B838C1F4787E200027965 /* Debug */,
-				383B838D1F4787E200027965 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 383B837A1F4787E200027965 /* Project object */;
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "InputBarAccessoryView::InputBarAccessoryView" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_71";
+         buildPhases = (
+            "OBJ_74",
+            "OBJ_109"
+         );
+         dependencies = (
+         );
+         name = "InputBarAccessoryView";
+         productName = "InputBarAccessoryView";
+         productReference = "InputBarAccessoryView::InputBarAccessoryView::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "InputBarAccessoryView::InputBarAccessoryView::Product" = {
+         isa = "PBXFileReference";
+         path = "InputBarAccessoryView.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "InputBarAccessoryView::InputBarAccessoryViewPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_117";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_120"
+         );
+         name = "InputBarAccessoryViewPackageTests";
+         productName = "InputBarAccessoryViewPackageTests";
+      };
+      "InputBarAccessoryView::InputBarAccessoryViewTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_122";
+         buildPhases = (
+            "OBJ_125",
+            "OBJ_128"
+         );
+         dependencies = (
+            "OBJ_130"
+         );
+         name = "InputBarAccessoryViewTests";
+         productName = "InputBarAccessoryViewTests";
+         productReference = "InputBarAccessoryView::InputBarAccessoryViewTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "InputBarAccessoryView::InputBarAccessoryViewTests::Product" = {
+         isa = "PBXFileReference";
+         path = "InputBarAccessoryViewTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "InputBarAccessoryView::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_111";
+         buildPhases = (
+            "OBJ_114"
+         );
+         dependencies = (
+         );
+         name = "InputBarAccessoryViewPackageDescription";
+         productName = "InputBarAccessoryViewPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "en";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_65";
+         projectDirPath = ".";
+         targets = (
+            "InputBarAccessoryView::InputBarAccessoryView",
+            "InputBarAccessoryView::SwiftPMPackageDescription",
+            "InputBarAccessoryView::InputBarAccessoryViewPackageTests::ProductTarget",
+            "InputBarAccessoryView::InputBarAccessoryViewTests"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_11",
+            "OBJ_14",
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_25",
+            "OBJ_28",
+            "OBJ_49",
+            "OBJ_53",
+            "OBJ_55",
+            "OBJ_57"
+         );
+         name = "InputBarAccessoryView";
+         path = "Sources/InputBarAccessoryView";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_100" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
+      };
+      "OBJ_101" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_102" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_51";
+      };
+      "OBJ_103" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_52";
+      };
+      "OBJ_104" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_105" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
+      };
+      "OBJ_106" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_58";
+      };
+      "OBJ_107" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_59";
+      };
+      "OBJ_108" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_60";
+      };
+      "OBJ_109" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_11" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_12",
+            "OBJ_13"
+         );
+         name = "Controls";
+         path = "Controls";
+         sourceTree = "<group>";
+      };
+      "OBJ_111" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_112",
+            "OBJ_113"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_112" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_113" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_114" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_115"
+         );
+      };
+      "OBJ_115" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_117" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_118",
+            "OBJ_119"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_118" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_119" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_12" = {
+         isa = "PBXFileReference";
+         path = "InputBarButtonItem.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_120" = {
+         isa = "PBXTargetDependency";
+         target = "InputBarAccessoryView::InputBarAccessoryViewTests";
+      };
+      "OBJ_122" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_123",
+            "OBJ_124"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_123" = {
+         isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "InputBarAccessoryView.xcodeproj/InputBarAccessoryViewTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "InputBarAccessoryViewTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_124" = {
+         isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "InputBarAccessoryView.xcodeproj/InputBarAccessoryViewTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "InputBarAccessoryViewTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_125" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_126",
+            "OBJ_127"
+         );
+      };
+      "OBJ_126" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_63";
+      };
+      "OBJ_127" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_64";
+      };
+      "OBJ_128" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_129"
+         );
+      };
+      "OBJ_129" = {
+         isa = "PBXBuildFile";
+         fileRef = "InputBarAccessoryView::InputBarAccessoryView::Product";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "InputBarSendButton.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_130" = {
+         isa = "PBXTargetDependency";
+         target = "InputBarAccessoryView::InputBarAccessoryView";
+      };
+      "OBJ_14" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_15",
+            "OBJ_16",
+            "OBJ_17",
+            "OBJ_18",
+            "OBJ_19"
+         );
+         name = "Extensions";
+         path = "Extensions";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "NSMutableAttributedString+Extensions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXFileReference";
+         path = "NSNotification+Extensions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         path = "String+Extensions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "UITextView+Extensions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "UIView+AutoLayout.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "InputBarAccessoryView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_21" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_22",
+            "OBJ_23",
+            "OBJ_24"
+         );
+         name = "KeyboardManager";
+         path = "KeyboardManager";
+         sourceTree = "<group>";
+      };
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "KeyboardEvent.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "KeyboardManager.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "KeyboardNotification.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_25" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_26",
+            "OBJ_27"
+         );
+         name = "Models";
+         path = "Models";
+         sourceTree = "<group>";
+      };
+      "OBJ_26" = {
+         isa = "PBXFileReference";
+         path = "HorizontalEdgePadding.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "NSConstraintLayoutSet.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_28" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_29",
+            "OBJ_38"
+         );
+         name = "Plugins";
+         path = "Plugins";
+         sourceTree = "<group>";
+      };
+      "OBJ_29" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_30",
+            "OBJ_31",
+            "OBJ_34"
+         );
+         name = "AttachmentManager";
+         path = "AttachmentManager";
+         sourceTree = "<group>";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXFileReference";
+         path = "AttachmentManager.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_31" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_32",
+            "OBJ_33"
+         );
+         name = "Protocols";
+         path = "Protocols";
+         sourceTree = "<group>";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "AttachmentManagerDataSource.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "AttachmentManagerDelegate.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_34" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_35",
+            "OBJ_36",
+            "OBJ_37"
+         );
+         name = "Views";
+         path = "Views";
+         sourceTree = "<group>";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "AttachmentCell.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "AttachmentsView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_37" = {
+         isa = "PBXFileReference";
+         path = "ImageAttachmentCell.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_38" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_39",
+            "OBJ_40",
+            "OBJ_43",
+            "OBJ_46"
+         );
+         name = "AutocompleteManager";
+         path = "AutocompleteManager";
+         sourceTree = "<group>";
+      };
+      "OBJ_39" = {
+         isa = "PBXFileReference";
+         path = "AutocompleteManager.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_41",
+            "OBJ_42"
+         );
+         name = "Models";
+         path = "Models";
+         sourceTree = "<group>";
+      };
+      "OBJ_41" = {
+         isa = "PBXFileReference";
+         path = "AutocompleteCompletion.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_42" = {
+         isa = "PBXFileReference";
+         path = "AutocompleteSession.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_43" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_44",
+            "OBJ_45"
+         );
+         name = "Protocols";
+         path = "Protocols";
+         sourceTree = "<group>";
+      };
+      "OBJ_44" = {
+         isa = "PBXFileReference";
+         path = "AutocompleteManagerDataSource.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_45" = {
+         isa = "PBXFileReference";
+         path = "AutocompleteManagerDelegate.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_46" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_47",
+            "OBJ_48"
+         );
+         name = "Views";
+         path = "Views";
+         sourceTree = "<group>";
+      };
+      "OBJ_47" = {
+         isa = "PBXFileReference";
+         path = "AutocompleteCell.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_48" = {
+         isa = "PBXFileReference";
+         path = "AutocompleteTableView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_49" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_50",
+            "OBJ_51",
+            "OBJ_52"
+         );
+         name = "Protocols";
+         path = "Protocols";
+         sourceTree = "<group>";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_9",
+            "OBJ_61",
+            "OBJ_65",
+            "OBJ_68",
+            "OBJ_69"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXFileReference";
+         path = "InputBarAccessoryViewDelegate.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_51" = {
+         isa = "PBXFileReference";
+         path = "InputItem.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_52" = {
+         isa = "PBXFileReference";
+         path = "InputPlugin.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_53" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_54"
+         );
+         name = "Supporting Files";
+         path = "Supporting Files";
+         sourceTree = "<group>";
+      };
+      "OBJ_54" = {
+         isa = "PBXFileReference";
+         path = "InputBarAccessoryView+Availability.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_55" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_56"
+         );
+         name = "ViewControllers";
+         path = "ViewControllers";
+         sourceTree = "<group>";
+      };
+      "OBJ_56" = {
+         isa = "PBXFileReference";
+         path = "InputBarViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_57" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_58",
+            "OBJ_59",
+            "OBJ_60"
+         );
+         name = "Views";
+         path = "Views";
+         sourceTree = "<group>";
+      };
+      "OBJ_58" = {
+         isa = "PBXFileReference";
+         path = "InputStackView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_59" = {
+         isa = "PBXFileReference";
+         path = "InputTextView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "PBXFileReference";
+         path = "SeparatorLine.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_61" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_62"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_62" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_63",
+            "OBJ_64"
+         );
+         name = "InputBarAccessoryViewTests";
+         path = "Tests/InputBarAccessoryViewTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_63" = {
+         isa = "PBXFileReference";
+         path = "InputBarAccessoryViewTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_64" = {
+         isa = "PBXFileReference";
+         path = "XCTestManifests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_65" = {
+         isa = "PBXGroup";
+         children = (
+            "InputBarAccessoryView::InputBarAccessoryViewTests::Product",
+            "InputBarAccessoryView::InputBarAccessoryView::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_68" = {
+         isa = "PBXFileReference";
+         path = "Example";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_69" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Configs";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_71" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_72",
+            "OBJ_73"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_72" = {
+         isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "InputBarAccessoryView.xcodeproj/InputBarAccessoryView_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "InputBarAccessoryView";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "InputBarAccessoryView";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_73" = {
+         isa = "XCBuildConfiguration";
+         baseConfigurationReference = "OBJ_8";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "InputBarAccessoryView.xcodeproj/InputBarAccessoryView_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "InputBarAccessoryView";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "InputBarAccessoryView";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_74" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_75",
+            "OBJ_76",
+            "OBJ_77",
+            "OBJ_78",
+            "OBJ_79",
+            "OBJ_80",
+            "OBJ_81",
+            "OBJ_82",
+            "OBJ_83",
+            "OBJ_84",
+            "OBJ_85",
+            "OBJ_86",
+            "OBJ_87",
+            "OBJ_88",
+            "OBJ_89",
+            "OBJ_90",
+            "OBJ_91",
+            "OBJ_92",
+            "OBJ_93",
+            "OBJ_94",
+            "OBJ_95",
+            "OBJ_96",
+            "OBJ_97",
+            "OBJ_98",
+            "OBJ_99",
+            "OBJ_100",
+            "OBJ_101",
+            "OBJ_102",
+            "OBJ_103",
+            "OBJ_104",
+            "OBJ_105",
+            "OBJ_106",
+            "OBJ_107",
+            "OBJ_108"
+         );
+      };
+      "OBJ_75" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_12";
+      };
+      "OBJ_76" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_77" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
+      };
+      "OBJ_78" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
+      };
+      "OBJ_79" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_17";
+      };
+      "OBJ_8" = {
+         isa = "PBXFileReference";
+         name = "ios.xcconfig";
+         path = "Sources/ios.xcconfig";
+         sourceTree = "<group>";
+      };
+      "OBJ_80" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_18";
+      };
+      "OBJ_81" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_82" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_83" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+      };
+      "OBJ_84" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+      };
+      "OBJ_85" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_86" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_26";
+      };
+      "OBJ_87" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_88" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_30";
+      };
+      "OBJ_89" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_32";
+      };
+      "OBJ_9" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_10"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_90" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
+      };
+      "OBJ_91" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_35";
+      };
+      "OBJ_92" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_36";
+      };
+      "OBJ_93" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_37";
+      };
+      "OBJ_94" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_39";
+      };
+      "OBJ_95" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_41";
+      };
+      "OBJ_96" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_42";
+      };
+      "OBJ_97" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_44";
+      };
+      "OBJ_98" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_45";
+      };
+      "OBJ_99" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
+      };
+   };
+   rootObject = "OBJ_1";
 }

@@ -1,0 +1,209 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/master.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Controls/InputBarButtonItem.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarButtonItem.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarButtonItem.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarButtonItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarButtonItem.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Controls/InputBarSendButton.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarSendButton.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarSendButton.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarSendButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Controls/InputBarSendButton.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Extensions/NSMutableAttributedString+Extensions.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSMutableAttributedString+Extensions.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSMutableAttributedString+Extensions.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSMutableAttributedString+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSMutableAttributedString+Extensions.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Extensions/NSNotification+Extensions.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSNotification+Extensions.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSNotification+Extensions.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSNotification+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/NSNotification+Extensions.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Extensions/String+Extensions.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/String+Extensions.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/String+Extensions.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/String+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/String+Extensions.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Extensions/UITextView+Extensions.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UITextView+Extensions.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UITextView+Extensions.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UITextView+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UITextView+Extensions.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Extensions/UIView+AutoLayout.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UIView+AutoLayout.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UIView+AutoLayout.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UIView+AutoLayout~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Extensions/UIView+AutoLayout.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/InputBarAccessoryView.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/InputBarAccessoryView.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/InputBarAccessoryView.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/InputBarAccessoryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/InputBarAccessoryView.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/KeyboardManager/KeyboardEvent.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardEvent.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardEvent.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardEvent.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/KeyboardManager/KeyboardManager.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardManager.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardManager.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardManager.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/KeyboardManager/KeyboardNotification.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardNotification.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardNotification.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardNotification~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/KeyboardManager/KeyboardNotification.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Models/HorizontalEdgePadding.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/HorizontalEdgePadding.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/HorizontalEdgePadding.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/HorizontalEdgePadding~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/HorizontalEdgePadding.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Models/NSConstraintLayoutSet.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/NSConstraintLayoutSet.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/NSConstraintLayoutSet.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/NSConstraintLayoutSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Models/NSConstraintLayoutSet.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AttachmentManager/AttachmentManager.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/AttachmentManager.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/AttachmentManager.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/AttachmentManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/AttachmentManager.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AttachmentManager/Protocols/AttachmentManagerDataSource.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDataSource.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDataSource.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDataSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDataSource.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AttachmentManager/Protocols/AttachmentManagerDelegate.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDelegate.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDelegate.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Protocols/AttachmentManagerDelegate.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AttachmentManager/Views/AttachmentCell.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentCell.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentCell.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentCell.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AttachmentManager/Views/AttachmentsView.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentsView.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentsView.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/AttachmentsView.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AttachmentManager/Views/ImageAttachmentCell.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/ImageAttachmentCell.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/ImageAttachmentCell.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/ImageAttachmentCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AttachmentManager/Views/ImageAttachmentCell.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AutocompleteManager/AutocompleteManager.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/AutocompleteManager.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/AutocompleteManager.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/AutocompleteManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/AutocompleteManager.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AutocompleteManager/Models/AutocompleteCompletion.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteCompletion.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteCompletion.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteCompletion~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteCompletion.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AutocompleteManager/Models/AutocompleteSession.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteSession.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteSession.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Models/AutocompleteSession.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDataSource.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDataSource.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDataSource.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDataSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDataSource.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDelegate.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDelegate.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDelegate.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Protocols/AutocompleteManagerDelegate.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AutocompleteManager/Views/AutocompleteCell.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteCell.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteCell.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteCell.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Plugins/AutocompleteManager/Views/AutocompleteTableView.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteTableView.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteTableView.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteTableView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Plugins/AutocompleteManager/Views/AutocompleteTableView.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Protocols/InputBarAccessoryViewDelegate.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputBarAccessoryViewDelegate.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputBarAccessoryViewDelegate.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputBarAccessoryViewDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputBarAccessoryViewDelegate.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Protocols/InputItem.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputItem.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputItem.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputItem.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Protocols/InputPlugin.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputPlugin.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputPlugin.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputPlugin~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Protocols/InputPlugin.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Supporting Files/InputBarAccessoryView+Availability.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Supporting Files/InputBarAccessoryView+Availability.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Supporting Files/InputBarAccessoryView+Availability.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Supporting Files/InputBarAccessoryView+Availability~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Supporting Files/InputBarAccessoryView+Availability.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/ViewControllers/InputBarViewController.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/ViewControllers/InputBarViewController.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/ViewControllers/InputBarViewController.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/ViewControllers/InputBarViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/ViewControllers/InputBarViewController.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Views/InputStackView.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputStackView.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputStackView.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputStackView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputStackView.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Views/InputTextView.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputTextView.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputTextView.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputTextView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/InputTextView.swiftdeps"
+  },
+  "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/Sources/InputBarAccessoryView/Views/SeparatorLine.swift": {
+    "dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/SeparatorLine.d",
+    "object": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/SeparatorLine.swift.o",
+    "swiftmodule": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/SeparatorLine~partial.swiftmodule",
+    "swift-dependencies": "/Users/jatin/Documents/Projects/Packages/InputBarAccessoryView/.build/x86_64-apple-macosx/debug/InputBarAccessoryView.build/Views/SeparatorLine.swiftdeps"
+  }
+}

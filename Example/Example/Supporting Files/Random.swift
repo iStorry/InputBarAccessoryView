@@ -26,7 +26,7 @@
 //
 
 import UIKit
-import Foundation
+import UIKit
 
 // each type has its own random
 extension Bool {
